@@ -1,0 +1,152 @@
+body {
+
+    background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #000;
+    height: 100%;
+    align-items: center;
+    line-height: .8;
+}
+
+.main {
+    position: fixed;
+
+    align-items: center;
+    top: 0;
+    left: 30%;
+    background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+    color: #fff;
+    width: 20rem;
+    text-align: center;
+    height: 95vh;
+}
+
+.main .image img {
+
+    object-fit: cover;
+    width: 18rem;
+    height: 10rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.main .music-title {
+    font-size: 3rem;
+}
+
+.main .up-items .like {
+    font-size: 1rem;
+    position: relative;
+    text-align: end;
+    padding: 0 1rem 0 3rem;
+    transform: translateY(-2rem);
+    cursor: pointer;
+}
+
+
+.main .up-items {
+    margin: 3rem 0 1rem 0;
+}
+
+.main .up-items .Music-title {
+    text-align: start;
+    padding: 0 0 0 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main .up-items .album p {
+    text-align: start;
+    font-size: 1rem;
+    padding: 0 0 0 1rem;
+    color: rgb(139, 153, 156);
+}
+
+/*.main .up-items .progress{
+    position: relative;
+    width: 18rem;
+    background-color: rgb(189, 153, 156);
+    width: 15rem;
+    padding: 0 1rem 0 1rem;
+    background-position: center;
+}*/
+
+.main .up-items .progress {
+    position: relative;
+    background-color: rgb(139, 153, 156);
+    width: 90%;
+    left: 1rem;
+    height: .2rem;
+    text-align: start;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+.main .up-items .progress .corrent-progress {
+    --progress: 0%;
+    background: #fff;
+    height: inherit;
+    width: var(--progress);
+    cursor: pointer;
+
+}
+
+#progress-container {
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.main .up-items .time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 5rem 1rem;
+
+}
+
+.main .up-items .time .final-time {
+    text-align: end;
+    padding-right: 1rem;
+
+}
+
+.main .down-items {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+    transform: translateY(-7rem);
+}
+
+
+.main .down-items .play-pause h3 i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+
+.main .down-items .shuffle {
+    cursor: pointer;
+}
+
+.main .down-items .preview h3 i {
+    cursor: pointer;
+}
+
+
+.main .down-items .next {
+    cursor: pointer;
+}
+
+.main .down-items .repeat {
+
+    cursor: pointer;
+}
+
+.main {
+
+    background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+}

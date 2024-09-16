@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <section class="main">
+
+        <div class="title">
+            <h1>Music Player</h1>
+        </div>
+        <!--Fim do title-->
+
+        <div class="image">
+            <img src="" alt="Disc Cover">
+        </div>
+        <!--image-->
+
+        <div class="up-items">
+            <div class="Music-title">
+                <h2>Music Title</h2>
+            </div>
+            <div class="Music">
+                <audio src=""></audio>
+            </div>
+            <!--music title-->
+
+            <div class="album">
+                <p>Album</p>
+            </div>
+
+            <div class="like" onclick="like_button()">
+                <i class="bi bi-heart"></i>
+
+                <!-- <i class="bi bi-heart-fill"></i>  -->
+            </div>
+            <!--like-->
+
+            <div id="progress-container">
+                <div class="progress">
+                    <div class="corrent-progress"></div>
+
+                </div>
+            </div>
+
+            <div class="time">
+                <p class="initial-time" id="initial-time">initial-time</p>
+
+                <p class="final-time" id="final-time">final-time</p>
+            </div>
+
+            <!--pogressing--->
+
+        </div>
+
+
+        <div class="down-items">
+
+            <div class="shuffle">
+                <h3><i class="bi bi-shuffle"></i></h3>
+            </div>
+            <!--random-->
+
+            <div class="preview">
+                <h3><i class="bi bi-skip-backward-circle-fill"></i></h3>
+            </div>
+            <!--preview-->
+
+            <div class="play-pause" onclick="play()">
+                <h3><i class="bi bi-play-circle-fill"></i></h3>
+                <!-- <i class="bi bi-pause-circle-fill"></i> -->
+            </div>
+            <!--play-pause-->
+
+            <div class="next">
+                <h3><i class="bi bi-skip-forward-circle-fill"></i></h3>
+            </div>
+            <!--next-->
+
+            <div class="repeat" onclick="repeat_button()">
+                <h3><i class="bi bi-repeat"></i>
+                    <!-- <i class="bi bi-repeat-1"></i> -->
+                </h3>
+            </div>
+
+    </section>
+
+    </div>
+
+
+
+</body>
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+
+</html>
